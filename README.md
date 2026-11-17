@@ -2,11 +2,13 @@
 
 HKU COMP3278 · Group 18 Course Project
 
+队友请先看[项目交接与待办](TEAM_HANDOFF.md)。
+
 [打开 GitHub Pages 演示](https://gwdsd1.github.io/COMP3278-Group18/)。演示版在浏览器中运行 SQLite，读取公开的比赛数据快照。下方是课程项目的离线启动方式。
 
 离线查询平台使用现有 SQLite 数据，包含 Q1–Q9。需要 **Python 3.10+** 和浏览器。安装好 Python 后即可断网运行，无需安装 Python 包。
 
-在 `group_project` 目录打开终端运行：
+在仓库根目录打开终端运行：
 
 ```powershell
 python app/server.py
